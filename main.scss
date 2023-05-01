@@ -18,14 +18,13 @@ body {
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
-}
-
-.search {
+  
+  .search {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  
   input {
     border: 0;
     outline: 0;
@@ -38,7 +37,7 @@ body {
     margin-right: 16px;
     font-size: 18px;
   }
-
+  
   button {
     border: 0;
     outline: 0;
@@ -47,10 +46,56 @@ body {
     width: 60px;
     height: 60px;
     cursor: pointer;
-
+    
     img {
       width: 16px;
     }
   }
-}
+} // search
 
+.weather {
+
+  .weather-icon {
+    width: 170px;
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+  }
+
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+
+    .col {
+      display: flex;
+      align-items: center;
+      text-align: left;
+
+      img {
+        width: 40px;
+        margin-right: 10px;
+      }
+
+      p.humidity, p.wind {
+        font-size: 28px;
+        margin-top: -6px;
+      }
+    }
+  }
+
+} // weather
+
+
+} // card
